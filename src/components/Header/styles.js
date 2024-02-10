@@ -58,3 +58,11 @@ export const Profile = styled.div`
     border-radius: 50%;
   }
 `
+
+export const Logout = styled.button`
+  border: none;
+  background: none;
+  font-size: 1.4rem;
+  text-align: end;
+  color: ${({ theme }) => theme.COLORS.GRAY_100};
+`
